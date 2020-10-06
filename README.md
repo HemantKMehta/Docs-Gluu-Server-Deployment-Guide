@@ -18,6 +18,7 @@ Gluu server binaries are free for different distributions (packages, containers,
 base for the users. The VIP support comes under a paid contract with guaranteed response time and consultative support (more details: https://www.gluu.org/pricing/). 
 
 **Open Standards behind Gluu Server**
+
 Gluu Server uses several open standards. Subsequent paragraphs discuss a brief detail of these standards.
 
 **OAuth:** OAuth is an open-standard authorization protocol for authorization. It describes the way of authenticated access among unrelated servers. OAuth 2.0 is an industry-standard authorization protocol that focuses on client developer simplicity and providing authentication flows for different applications.
