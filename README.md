@@ -1,6 +1,5 @@
-# docs-ce-prod
-
-**Each branch represents a version of CE**   
+# Gluu Server Deployment Guide
+   
 
 This repo holds all versions of CE docs and includes scripts to publish. All docs are processed using mkdocs. This repo is organized with branches for each version of the documentation.
 
