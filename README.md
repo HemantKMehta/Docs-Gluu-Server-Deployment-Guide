@@ -8,13 +8,13 @@ The underlying innovative technologies have enabled the Gluu server in processin
 
 Gluu Server is a free open source software (FOSS) that enables its users to control access to their resources. In a nutshell, the Gluu Server is an efficient Identity and Access Management (IAM) solution. Any multi-user web/ mobile application that requires user authentication, identity management and resource access policies can leverage a Gluu server.  
 **Open Source Gluu Server**
--Gluu Server is an open-source software consisting of software written by Gluu and incorporated by other open-source projects. Gluu also supports the open-source as:
+- Gluu Server is an open-source software consisting of software written by Gluu and incorporated by other open-source projects. Gluu also supports the open-source as:
 The source code is a free open-source with several essential interception scripts written by Gluu to implement the custom business logic for authentication and authorization. 
 Gluu server binaries are free for different distributions (packages, containers, K8, snap etc.).
 
--Gluu Server documentation is freely available. 
+- Gluu Server documentation is freely available. 
 
--Gluu offers free and VIP support. The Gluu support portal is open to browse, register and post questions. The support portal (https://support.gluu.org) serves as a knowledge 
+- Gluu offers free and VIP support. The Gluu support portal is open to browse, register and post questions. The support portal (https://support.gluu.org) serves as a knowledge 
 base for the users. The VIP support comes under a paid contract with guaranteed response time and consultative support (more details: https://www.gluu.org/pricing/). 
 
 **Open Standards behind Gluu Server**
@@ -102,7 +102,7 @@ The Gluu Server supports the following four methods for caching of session data 
 
 **Native Persistence (Couchbase, LDAP):** This caching method uses the underlying native persistence method of the Gluu Server deployment. If the LDAP/ Couchbase is the database of any deployment, then under this scheme, LDAP/ Caouchbase stores the caching data.
 
-**Suggested Deployment Architecture**
+## Suggested Deployment Architecture
 
 The actual Gluu Server deployment depends on the application. Several factors (size of the application in terms of number of users, number of authentication per day, etc.) affect the deployment architecture. Mostly the applications can be efficiently served by single server deployment. There may be some mission-critical and large application that requires the highly available multiple-server/ cluster-based Gluu Server deployment. 
 
@@ -124,22 +124,3 @@ Cloud-based Gluu Server Deployment: Gluu server supports most of the cloud provi
 **Cluster Manager:** Cluster Manager (CM) is a GUI tool for installing and managing a highly available, clustered Gluu Server infrastructure on physical servers or VMs. CM can be used to cluster an existing single node Gluu Server, or can be used to deploy a new cluster of Gluu Servers from scratch. CM automates several tasks associated with setting up and managing the high available cluster including its installation, database replication, cache management, logging, secure tunneling between oxAuth and redis. 
 
 **Kubernetes:** Kubernetes is an open source container-orchestration system to automatically deploy, scall and manage the application. Gluu Server supports configuration of both cloud (amazon’s EKS, Google’s GKE, DigitalOcean’s DOKS, Microsoft AKS etc.) and local kubernetes (Minikubes, MicroK8s) clusters. 
-
-
-
-## Making changes
-Fork, clone, and make a pull request.
-
-**Note: "Master" is the branch for editing this `README.md`.  You will not see documentation files until you check out the specific branch.**
-
-## Check out the docs
-
-`$ git checkout <branchname>`
-
-## Update (for those who have privileges)
-
-```
-/path/to/repo/branchname (branchname)
-$ ./update-site-local-sh
-```
-
