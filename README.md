@@ -133,9 +133,9 @@ Cloud-based Gluu Server Deployment: Gluu server supports most of the cloud provi
 
 ## Sizing
 Gluu Server supports applications of various size from few hundreds/ thousands of authentication per day to billion authentication perday. 
-* **VM:**
+- **VM:**
 
-* **Kubernetes:**
- - **Couchbase:**
- - **LDAP/ Redis:**
+- **Kubernetes:**
+   - **Couchbase:**
+   - **LDAP/ Redis:**
 
