@@ -93,9 +93,9 @@ Initially, the Gluu Server was using LDAP as the default persistent storage meth
 
 **Couchbase:** The Gluu Server supports both local and remote Couchbase clusters. Gluu Server can support a billion authentication per day because of the use of Clouchbase as its database and the cloud-native technologies.
 
-**RDBMS:** Recently the Gluu Server also added the support for RDBMS (e.g. Postgress) to store the authentication related information. 
-
 **Hybrid:** It is a meta module that enables the storage of the data to multiple persistence modules. For example, LDAP keeps the user and group entries, while Couchbase stores all other entries. We recommend to avoid the hybrid persistence as it leads to double the maintenance task for both the LDAP and Couchbase. 
+
+**RDBMS:** The latest addition to Gluu Server persistence is the support for RDBMS (e.g. Postgress) to store the authentication related information. 
 
 
 ## Caching
