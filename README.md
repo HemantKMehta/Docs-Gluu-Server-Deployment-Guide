@@ -84,7 +84,7 @@ The integration consists of custom authentication scripts and web pages for oxAu
 
 **Cluster Manager:** Cluster Manager (CM) is a GUI tool for installing and managing a highly available, clustered Gluu Server infrastructure on physical servers or Virtual Machines (VMs) excluding the containers (Docker), Kubernetes, etc. CM can be used to cluster an existing single-node Gluu Server (a "seed") or can be used to deploy a new cluster of Gluu Servers from scratch.
 
-![The components of Gluu Server](../img/gluu.jpg)
+![The components of Gluu Server](/img/gluu.jpg)
 
 ## Persistence
 Initially, the Gluu Server was using LDAP as the default persistent storage method. From version 4.0, Gluu Server uses the following options for the persistent storage of essential authentication-related information. 
