@@ -95,8 +95,7 @@ Initially, the Gluu Server was using LDAP as the default persistent storage meth
 
 **Hybrid:** It is a meta module that enables the storage of the data to multiple persistence modules. For example, LDAP keeps the user and group entries, while Couchbase stores all other entries. We recommend to avoid the hybrid persistence as it leads to double the maintenance task for both the LDAP and Couchbase. 
 
-**RDBMS:** The latest addition to Gluu Server persistence is the support for RDBMS (e.g. Postgress) to store the authentication related information. 
-
+**RDBMS:** The latest addition to Gluu Server persistence is RDBMS's support (e.g., Postgress) to store the authentication-related information.  
 
 ## Caching
 
@@ -125,14 +124,15 @@ Cloud-based Gluu Server Deployment: Gluu server supports most of the cloud provi
 
 **High Availability Gluu Server Deployment:** Gluu Server supports active-active high availability deployment model. Furthermore, we also recommend using Gluu Server on multi cloud/ hybrid cloud deployment for high availability and disaster recovery configuration. The Couchbase also supports multi-data center replication for persistence and caching. Following are available options for high availability Gluu Server deployment.
 
-- **Manual:** A difficult to configure choice for a high available Gluu Server cluster across multiple instances is to configure it manually. The cluster requires a minimum of four servers or VMs as two for Gluu Server, one for load balancing and one for redis. 
+- **Manual:** A difficult to configure choice for a high available Gluu Server cluster across multiple instances is to configure it manually. The cluster requires a minimum of four servers or VMs as two for Gluu Server, one for load balancing and one for redis. This requires a lot of effort towards making sure that the deployment meets the performance requirement. The individual components must be properly tested and benchmarked for the performance requirement. 
 
 - **Cluster Manager:** Cluster Manager (CM) is a GUI tool for installing and managing a highly available, clustered Gluu Server infrastructure on physical servers or VMs. CM can be used to cluster an existing single node Gluu Server, or can be used to deploy a new cluster of Gluu Servers from scratch. CM automates several tasks associated with setting up and managing the high available cluster including its installation, database replication, cache management, logging, secure tunneling between oxAuth and redis. 
 
 - **Kubernetes:** Kubernetes is an open source container-orchestration system to automatically deploy, scall and manage the application. Gluu Server supports configuration of both cloud (amazon’s EKS, Google’s GKE, DigitalOcean’s DOKS, Microsoft AKS etc.) and local kubernetes (Minikubes, MicroK8s) clusters. 
 
 ## Sizing
-Gluu Server supports applications of various size from few hundreds/ thousands of authentications per day to a billion authentications perday. 
+Gluu Server supports applications of various sizes from a few hundreds/ thousands of authentications per day to a billion authentications per day. 
+
 - **VM:**
 
 - **Kubernetes:**
