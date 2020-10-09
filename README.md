@@ -130,3 +130,12 @@ Cloud-based Gluu Server Deployment: Gluu server supports most of the cloud provi
 - **Cluster Manager:** Cluster Manager (CM) is a GUI tool for installing and managing a highly available, clustered Gluu Server infrastructure on physical servers or VMs. CM can be used to cluster an existing single node Gluu Server, or can be used to deploy a new cluster of Gluu Servers from scratch. CM automates several tasks associated with setting up and managing the high available cluster including its installation, database replication, cache management, logging, secure tunneling between oxAuth and redis. 
 
 - **Kubernetes:** Kubernetes is an open source container-orchestration system to automatically deploy, scall and manage the application. Gluu Server supports configuration of both cloud (amazon’s EKS, Google’s GKE, DigitalOcean’s DOKS, Microsoft AKS etc.) and local kubernetes (Minikubes, MicroK8s) clusters. 
+
+## Sizing
+Gluu Server supports applications of various size from few hundreds/ thousands of authentication per day to billion authentication perday. 
+- **VM:**
+
+- **Kubernetes:**
+- **Couchbase:**
+- **LDAP/ Redis:**
+
