@@ -2,7 +2,7 @@
    
 
 This guide focuses on planning the efficient Gluu Server deployment strategy for your organization/ application. Gluu server supports single server/ VM/ container-based deployment, cluster manager based deployment, and up to the highly scalable solution relying on Kubernetes and Clouchbase.
-The underlying innovative technologies have enabled the Gluu server in processing a billion authentication per day. Gluu server relies on the cloud-native technologies, hosted Kubernetes like Amazon Elastic Kubernetes Services (EKS)  and Couchbase database to process a billion authentication a day. It also uses cost-effective autoscaling to meet the sudden demand without any extra pre-provisioning. 
+The underlying innovative technologies have enabled the Gluu server in processing a billion authentications per day. Gluu server relies on the cloud-native technologies, hosted Kubernetes like Amazon Elastic Kubernetes Services (EKS)  and Couchbase database to process a billion authentication a day. It also uses cost-effective autoscaling to meet the sudden demand without any extra pre-provisioning. 
 
 ## Introduction of Gluu Server   
 
@@ -132,7 +132,7 @@ Cloud-based Gluu Server Deployment: Gluu server supports most of the cloud provi
 - **Kubernetes:** Kubernetes is an open source container-orchestration system to automatically deploy, scall and manage the application. Gluu Server supports configuration of both cloud (amazon’s EKS, Google’s GKE, DigitalOcean’s DOKS, Microsoft AKS etc.) and local kubernetes (Minikubes, MicroK8s) clusters. 
 
 ## Sizing
-Gluu Server supports applications of various size from few hundreds/ thousands of authentication per day to billion authentication perday. 
+Gluu Server supports applications of various size from few hundreds/ thousands of authentications per day to a billion authentications perday. 
 - **VM:**
 
 - **Kubernetes:**
