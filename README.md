@@ -137,5 +137,6 @@ Gluu Server supports applications of various sizes from a few hundreds/ thousand
 
 - **Kubernetes:**
    - **Couchbase:**
-   - **LDAP/ Redis:**
+   - **LDAP/ Redis:** 
+   
 
